@@ -1,0 +1,131 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/c6/44fce1467be17702.jpg_750x200_406f5fc3.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/22/382624cbe97b0502.jpg_750x200_36a074d6.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "热门景点"
+      },
+      {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "北京必游"
+      },
+      {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6a/45f595250c73d102.png",
+        "desc": "夏日玩水"
+      },
+      {
+        "id": "004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "desc": "文化古迹"
+      },
+      {
+        "id": "005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      },
+      {
+        "id": "006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+        "desc": "故宫"
+      },
+      {
+        "id": "007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/95/8d02011d149bdb02.png",
+        "desc": "汽车票"
+      },
+      {
+        "id": "009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "desc": "游乐场"
+      },
+      {
+        "id": "010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "desc": "全部玩乐"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/12/126471e0966aca5ba3.img.jpg_200x200_f1286016.jpg",
+        "name": "北京国际鲜花港",
+        "price": 19.9,
+        "area": "顺义区",
+        "remarkNumber": 193,
+        "remarkScore": 4.9
+      },
+      {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1709/e4/e48857f2ce5e53a7a3.img.jpg_200x200_8ee069fe.jpg",
+        "name": "远去的恐龙",
+        "price": 140,
+        "area": "朝阳区",
+        "remarkNumber": 430,
+        "remarkScore": 4.9
+      },
+      {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/a5/4003f9dd7bebf61eccbf64046e26d487.water.jpg_200x200_7690e4cd.jpg",
+        "name": "北京欢乐谷",
+        "price": 180,
+        "area": "朝阳区",
+        "remarkNumber": 44173,
+        "remarkScore": 4.9
+      },
+      {
+        "id": "004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+        "name": "故宫",
+        "price": 40,
+        "area": "东城区",
+        "remarkNumber": 517621,
+        "remarkScore": 4.9
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1606/85/c6b6bad1b977e.jpg_r_640x214_5c638941.jpg",
+        "title": "漂流勇进，烧烤露营",
+        "content": "轻松水上漂，任我乐逍"
+      },
+      {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/53/02091f1ee43d0a.jpg_r_640x214_2e3256b1.jpg",
+        "title": "来北京必去的景点非这些地方莫属",
+        "content": "到大自然中享受“天然空调”的清"
+      },
+      {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "北京必游TOP10",
+        "content": "来北京必去的景点非这些地方莫"
+      },
+      {
+        "id": "004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "content": "数百年的宫廷庙宇，至今依旧威严霸"
+      }
+    ]
+  }
+}

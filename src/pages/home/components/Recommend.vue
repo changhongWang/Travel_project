@@ -1,7 +1,7 @@
 <template>
   <section class="recommend-wrapper">
     <h4 class="recommend-title">猜您喜欢</h4>
-    <div class="recommend-detail-wrapper border-bottom" v-for="item of recommendList" :key="item.id">
+    <div class="recommend-detail-wrapper border-bottom" v-for="item of list" :key="item.id">
       <img :src="item.imgUrl" alt="">
       <ul class="recommend-detail">
         <li class="detail-title">{{item.name}}</li>
@@ -19,47 +19,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [
-        {
-          id: '001',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/12/126471e0966aca5ba3.img.jpg_200x200_f1286016.jpg',
-          name: '北京国际鲜花港',
-          price: 19.9,
-          area: '顺义区',
-          remarkNumber: 1930,
-          remarkScore: 4.9
-        },
-        {
-          id: '002',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1709/e4/e48857f2ce5e53a7a3.img.jpg_200x200_8ee069fe.jpg',
-          name: '远去的恐龙',
-          price: 140,
-          area: '朝阳区',
-          remarkNumber: 430,
-          remarkScore: 4.9
-        },
-        {
-          id: '003',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/a5/4003f9dd7bebf61eccbf64046e26d487.water.jpg_200x200_7690e4cd.jpg',
-          name: '北京欢乐谷',
-          price: 180,
-          area: '朝阳区',
-          remarkNumber: 44173,
-          remarkScore: 4.9
-        },
-        {
-          id: '004',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-          name: '故宫',
-          price: 20,
-          area: '东城区',
-          remarkNumber: 251766,
-          remarkScore: 4.9
-        }
-      ]
-    }
+  props: {
+    list: Array
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="icons">
-    <swiper>
+    <swiper :options="swiperOption">
       <swiper-slide v-for="(page, index) of pages" :key="index">
         <div class="icon" v-for="icon of page" :key="icon.id">
           <div class="icon-img-box">
@@ -18,6 +18,9 @@ export default {
   name: 'HomeIcons',
   data () {
     return {
+      swiperOption: {
+        pagination: '.swiper-pagination'
+      },
       icons: [
         {
           id: '001',
@@ -61,8 +64,13 @@ export default {
         },
         {
           id: '009',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/95/8d02011d149bdb02.png',
-          desc: '汽车票'
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png',
+          desc: '游乐场'
+        },
+        {
+          id: '010',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png',
+          desc: '全部玩乐'
         }
       ]
     }
@@ -87,6 +95,7 @@ export default {
   @import '~styles/variables.styl'
   @import '~styles/mixins.styl'
   .icons
+    margin-top: .2rem
     overflow: hidden
     width: 100%
     height: 0

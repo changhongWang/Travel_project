@@ -1,17 +1,17 @@
 <template>
   <section class="recommend-wrapper">
     <h4 class="recommend-title">猜您喜欢</h4>
-    <div class="recommend-detail-wrapper border-bottom" v-for="item of list" :key="item.id">
-      <img :src="item.imgUrl" alt="">
-      <ul class="recommend-detail">
-        <li class="detail-title">{{item.name}}</li>
-        <li class="detail-remark">{{item.remarkNumber}}条评论</li>
-        <li class="detail-price-area">
-          <span class="price">￥<em>{{item.price}}</em></span>起
-          <span class="area">{{item.area}}</span>
-        </li>
-      </ul>
-    </div>
+      <router-link tag="div" class="recommend-detail-wrapper border-bottom" v-for="item of list" :key="item.id" :to="'/detail/' + item.id">
+        <img :src="item.imgUrl" alt="">
+        <ul class="recommend-detail">
+          <li class="detail-title">{{item.name}}</li>
+          <li class="detail-remark">{{item.remarkNumber}}条评论</li>
+          <li class="detail-price-area">
+            <span class="price">￥<em>{{item.price}}</em></span>起
+            <span class="area">{{item.area}}</span>
+          </li>
+        </ul>
+      </router-link>
     <a class="href-all-product" href="http://touch.piao.qunar.com/touch/list_%E5%8C%97%E4%BA%AC_%E6%99%AF%E7%82%B9%E9%97%A8%E7%A5%A8.html?region=%E5%8C%97%E4%BA%AC&isForeign=false&pageSize=10">查看所有产品</a>
   </section>
 </template>
@@ -35,6 +35,7 @@ export default {
       background: #efefef
     .recommend-detail-wrapper
       display: flex
+      color: #333
       img
         width: 2rem
         height: 2rem

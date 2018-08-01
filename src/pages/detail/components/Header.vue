@@ -4,7 +4,7 @@
       <i class="iconfont back-icon">&#xe624;</i>
     </router-link>
     <div class="header-main" v-show="!showBackIcon" :style="opacityStyle">
-      故宫
+      {{name}}
       <router-link to="/">
         <div class="header-main-back iconfont">&#xe624;</div>
       </router-link>
@@ -15,6 +15,9 @@
 <script>
 export default {
   name: 'DetailHeader',
+  props: {
+    name: String
+  },
   data () {
     return {
       showBackIcon: true,
@@ -35,6 +38,9 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-input></city-input>
+    <city-input :cities="cities"></city-input>
     <city-list :hot="hotCities" :cities="cities" :letter="clickedLetter"></city-list>
     <city-alphabet :cities="cities" @letterClick="handleLetterClick"></city-alphabet>
   </div>

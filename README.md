@@ -1,10 +1,15 @@
 # travel_project
 
+## 基于Vue.js实现的在线旅游平台
+
 > An OTA platform based on Vue.js
 
-## Build Setup
+## 搭建步骤
 
 ``` bash
+# clone the project by download or use git clone
+git clone https://github.com/changhongWang/Travel_project.git
+
 # install dependencies
 npm install
 
@@ -17,5 +22,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
